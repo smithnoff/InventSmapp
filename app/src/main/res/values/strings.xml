@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InventSmapp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="register">Registrar</string>
+    <string name="search">Buscar</string>
+    <string name="status">Estado</string>
+    <string name="export">Exportar</string>
+</resources>
