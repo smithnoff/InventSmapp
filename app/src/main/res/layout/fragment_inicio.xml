@@ -49,6 +49,19 @@
                 android:ems="10"
                 android:id="@+id/editText4" />
 
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Activo / Inactivo"
+                android:id="@+id/checkBox" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aceptar"
+                android:id="@+id/button"
+                android:layout_gravity="bottom|center" />
+
         </LinearLayout>
     </ScrollView>
 
