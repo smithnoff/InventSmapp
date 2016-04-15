@@ -23,13 +23,13 @@
     <item android:title="Contacto">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_redes"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Redes Sociales" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_acerca"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Acerca de" />
         </menu>
     </item>
 
