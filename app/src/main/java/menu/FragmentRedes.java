@@ -12,10 +12,10 @@ import com.sky.skynoff.inventsmapp.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Fragment_Redes extends Fragment {
+public class FragmentRedes extends Fragment {
 
 
-    public Fragment_Redes() {
+    public FragmentRedes() {
         // Required empty public constructor
     }
 
