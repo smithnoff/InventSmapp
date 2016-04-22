@@ -45,7 +45,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:id="@+id/instancia"
-                    android:spinnerMode="dialog" />
+                    android:spinnerMode="dialog"/>
 
             </LinearLayout>
             <LinearLayout
@@ -63,14 +63,14 @@
                     android:textStyle="bold"
                     android:textSize="18sp"
                     android:text="SUB INSTANCIA 1  "
-                    android:id="@+id/textView" />
+                    android:id="@+id/textView"/>
 
                 <Spinner
                     android:layout_width="0sp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:id="@+id/spinstancia2"
-                    android:spinnerMode="dialog" />
+                    android:spinnerMode="dialog"/>
 
             </LinearLayout>
             <LinearLayout
@@ -88,7 +88,7 @@
                     android:textStyle="bold"
                     android:textSize="18sp"
                     android:text="SUB INSTANCIA 2  "
-                    android:id="@+id/textView2" />
+                    android:id="@+id/textView2"/>
 
                 <Spinner
                     android:layout_width="0sp"
@@ -96,7 +96,7 @@
                     android:layout_weight="1"
 
                     android:id="@+id/spinstancia3"
-                    android:spinnerMode="dialog" />
+                    android:spinnerMode="dialog"/>
 
             </LinearLayout>
 
@@ -117,7 +117,7 @@
                     android:textColor="@color/colorAccent"
                     android:id="@+id/cbcode"
                     android:onClick="habilita"
-                    android:checked="false" >
+                    android:checked="false">
                     <!--   <requestFocus /> -->
                 </CheckBox>
 
@@ -140,7 +140,7 @@
                         android:singleLine="true"
                         android:enabled="false"
                         android:ems="10"
-                        android:id="@+id/editText" />
+                        android:id="@+id/editText"/>
                     <Button
                         android:layout_width="0sp"
                         android:layout_height="wrap_content"
@@ -149,8 +149,7 @@
                         android:id="@+id/bt_scan"
                         android:enabled="false"
                         android:background="@color/colorPrimary"
-                        android:text="ESCANEAR"
-                        />
+                        android:text="ESCANEAR"/>
                 </LinearLayout>
 
                 <EditText
@@ -163,9 +162,7 @@
 
                     android:textSize="18sp"
                     android:singleLine="true"
-                    android:textColorHint="@color/colorAccent"
-
-                    />
+                    android:textColorHint="@color/colorAccent"/>
 
                 <EditText
                     android:layout_width="match_parent"
@@ -177,7 +174,7 @@
                     android:maxLength="20"
                     android:textColorHint="@color/colorAccent"
                     android:singleLine="true"
-                    android:id="@+id/editText3" />
+                    android:id="@+id/editText3"/>
 
                 <EditText
                     android:layout_width="match_parent"
@@ -189,7 +186,7 @@
                     android:textSize="18sp"
                     android:textColorHint="@color/colorAccent"
                     android:singleLine="true"
-                    android:id="@+id/editText4" />
+                    android:id="@+id/editText4"/>
 
                 <EditText
                     android:layout_width="match_parent"
@@ -200,7 +197,7 @@
                     android:textSize="18sp"
                     android:textColorHint="@color/colorAccent"
                     android:singleLine="true"
-                    android:id="@+id/editText5" />
+                    android:id="@+id/editText5"/>
 
                 <EditText
                     android:layout_width="match_parent"
@@ -211,7 +208,7 @@
                     android:textSize="18sp"
                     android:textColorHint="@color/colorAccent"
                     android:singleLine="true"
-                    android:id="@+id/editText6" />
+                    android:id="@+id/editText6"/>
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
@@ -229,14 +226,14 @@
                         android:textStyle="bold"
                         android:textSize="18sp"
                         android:textColorHint="@color/colorAccent"
-                        android:id="@+id/editText7" />
+                        android:id="@+id/editText7"/>
 
                     <Spinner
                         android:layout_width="0sp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:spinnerMode="dialog"
-                        android:id="@+id/unidadesv" />
+                        android:id="@+id/unidadesv"/>
 
                 </LinearLayout>
                 <LinearLayout
@@ -256,13 +253,13 @@
                         android:singleLine="true"
                         android:maxLength="3"
                         android:textColorHint="@color/colorAccent"
-                        android:id="@+id/editText8" />
+                        android:id="@+id/editText8"/>
                     <Spinner
                         android:layout_width="0sp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:spinnerMode="dialog"
-                        android:id="@+id/unidadesd" />
+                        android:id="@+id/unidadesd"/>
                     <EditText
                         android:layout_width="0sp"
                         android:layout_height="wrap_content"
@@ -275,7 +272,7 @@
                         android:textSize="18sp"
                         android:singleLine="true"
                         android:textColorHint="@color/colorAccent"
-                        android:id="@+id/editTextcntemp" />
+                        android:id="@+id/editTextcntemp"/>
                 </LinearLayout>
                 <LinearLayout
                     android:orientation="vertical"
@@ -288,29 +285,28 @@
                         android:text="UBICACION"
                         android:textColor="@color/colorPrimary"
                         android:textStyle="bold"
-                        android:textSize="18sp"
-                        />
+                        android:textSize="18sp"/>
 
                     <Spinner
                         android:layout_marginTop="10dp"
                         android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:spinnerMode="dialog"
-                        android:id="@+id/Piso" />
+                        android:id="@+id/Piso"/>
 
                     <Spinner
                         android:layout_marginTop="10dp"
                         android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:spinnerMode="dialog"
-                        android:id="@+id/Zona" />
+                        android:id="@+id/Zona"/>
 
                     <Spinner
                         android:layout_marginTop="10dp"
                         android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:spinnerMode="dialog"
-                        android:id="@+id/Sector" />
+                        android:id="@+id/Sector"/>
                 </LinearLayout>
 
                 <EditText
@@ -322,7 +318,7 @@
                     android:textColor="@color/colorPrimary"
                     android:textStyle="bold"
                     android:textSize="18sp"
-                    android:id="@+id/editText9" />
+                    android:id="@+id/editText9"/>
 
                 <Button
 
