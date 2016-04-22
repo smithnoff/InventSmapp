@@ -1,4 +1,4 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -6,9 +6,42 @@
     android:background="#ffffff">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView3" >
 
-</FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hello_blank_fragment" />
+    </ScrollView>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="+"
+        android:id="@+id/button4"
+        android:background="@drawable/bt_redondo"
+        android:layout_marginTop="30dp"
+        android:textColor="#fffefe"
+        android:textSize="30dp"
+        android:layout_below="@+id/scrollView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="+"
+        android:id="@+id/button5"
+        android:background="@drawable/bt_redondo"
+        android:textColor="#fffefe"
+        android:textSize="30dp"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+
+</RelativeLayout>
